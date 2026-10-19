@@ -25,7 +25,7 @@ test('Log in and filter System Users', async ({ page }) => {
 
     //const employeeName = filterGroup('Employee Name').locator('input');
     //await employeeName.fill('Muhammad Rehman');
-    //await page.waitForTimeout(1000);
+    //await page.waitForTimeout(3000);
     //console.log('Employee name entered:', await employeeName.inputValue());
 
     await filterGroup('Status').locator('.oxd-select-text').click();
